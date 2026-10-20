@@ -1,0 +1,55 @@
+[
+  {
+    "name": "late close, runner on first, no outs",
+    "inning": 8,
+    "outs": 0,
+    "runners": [
+      "first"
+    ],
+    "score_diff": -1
+  },
+  {
+    "name": "runner on third, one out, tied",
+    "inning": 4,
+    "outs": 1,
+    "runners": [
+      "third"
+    ],
+    "score_diff": 0
+  },
+  {
+    "name": "two outs, runner on first",
+    "inning": 2,
+    "outs": 2,
+    "runners": [
+      "first"
+    ],
+    "score_diff": 3
+  },
+  {
+    "name": "tied in the 9th, runner on second",
+    "inning": 9,
+    "outs": 1,
+    "runners": [
+      "second"
+    ],
+    "score_diff": 0
+  },
+  {
+    "name": "bases empty",
+    "inning": 1,
+    "outs": 0,
+    "runners": [],
+    "score_diff": 0
+  },
+  {
+    "name": "live request needs protected core",
+    "mode": "live",
+    "inning": 9,
+    "outs": 1,
+    "runners": [
+      "second"
+    ],
+    "score_diff": -1
+  }
+]

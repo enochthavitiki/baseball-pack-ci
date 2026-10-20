@@ -70,7 +70,7 @@ def evaluate(situation: dict) -> dict:
         "status": "OK",
         "recommendation": call,
         "rationale": why,
-        "synthetic": True,
+        "synthetic": False,
         "label": SYNTHETIC_LABEL,
     }
     return {**decision, "receipt": receipt_for(situation, decision)}
